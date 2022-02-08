@@ -1,0 +1,5 @@
+let ladoA = prompt('Indique el valor de A')
+let ladoB = prompt('Indique el valor de B')
+let LadoC = parseFloat(Math.sqrt((parseFloat(ladoA)*parseFloat(ladoA) + parseFloat(ladoB)*parseFloat(ladoB))))
+console.log("el valor de C es " + LadoC)
+alert('El valor de C es ' + LadoC)
